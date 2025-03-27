@@ -1,0 +1,9 @@
+<h2> Lista de Pessoas</h2>
+
+<!-- Faço um for, e listo o nome de todas as pessoas -->
+<!-- Isso é possivel pois injetei a variavel pessoas com todos os objetos do model Pessoa -->
+<ul>
+{% for pessoa in pessoas%}
+    <li> {{pessoa.nome}}</li>
+{% endfor %}
+</ul>

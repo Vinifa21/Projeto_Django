@@ -1,0 +1,9 @@
+<h2> Lista de Movimentos Mensalistas</h2>
+
+<!-- Faço um for, e listo o nome de todas as pessoas -->
+<!-- Isso é possivel pois injetei a variavel pessoas com todos os objetos do model Pessoa -->
+<ul>
+{% for mov in movs %}
+    <li> {{mov}}</li>
+{% endfor %}
+</ul>

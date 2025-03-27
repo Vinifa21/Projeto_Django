@@ -1,0 +1,9 @@
+<h2> Lista de Movimentos Rotativos</h2>
+
+<!-- Faço um for, e listo o nome de todas as pessoas -->
+<!-- Isso é possivel pois injetei a variavel pessoas com todos os objetos do model Pessoa -->
+<ul>
+{% for mov in variavel_injetada %}
+    <li> {{mov.checkin}} -  {{mov}}</li>
+{% endfor %}
+</ul>
